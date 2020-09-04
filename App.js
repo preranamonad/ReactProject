@@ -3,35 +3,35 @@ import {
   View,
   Text,
   Button,
-  // ScrollView,
+  ScrollView,
 } from 'react-native';
 
-// import Login from './components/Login';
-// import Home from './components/Home';
-// import State from './components/State';
-// import Demo from './components/Demo';
-// import LifeCycle from './components/Lifecycle';
-// import ParentToChild from './components/ParentToChild';
+import Login from './components/Login';
+import Home from './components/Home';
+import State from './components/State';
+import Demo from './components/Demo';
+import LifeCycle from './components/Lifecycle';
+import ParentToChild from './components/ParentToChild';
 
-// const App = () => {
-// function send() 
-// {
-//   alert("Send a function")
-// }
-// const data="Props component example"
-//   return (
-//     <ScrollView>
-//     <Login />
-//     <Text style={{fontSize:20}}>Function Component</Text>
-//     <Button title="Send" onPress={send} />
-//     <Home data={data}></Home>
-//     <State></State>
-//     <Demo />
-//     <LifeCycle />
-//     <ParentToChild newtext={"Example of passing data from parent to child component"}/>
-//     </ScrollView>
-//   );
-// };
+const App = () => {
+function send() 
+{
+  alert("Send a function")
+}
+const data="Props component example"
+  return (
+    <ScrollView>
+    <Login />
+    <Text style={{fontSize:20}}>Function Component</Text>
+    <Button title="Send" onPress={send} />
+    <Home data={data}></Home>
+    <State></State>
+    <Demo />
+    <LifeCycle />
+    <ParentToChild newtext={"Example of passing data from parent to child component"}/>
+    </ScrollView>
+  );
+};
 
 import ChildToParent from './components/ChildToParent'
 import CallParent from './components/CallParent';
