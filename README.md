@@ -1,7 +1,7 @@
 # ReactProject
 -----
 ## About
-This is the Project for Navigation in React-Native
+This is the Project for Component and there uses in React-Native
 ## Application that need to run the project
 - Android Studio
 - Command Prompt
