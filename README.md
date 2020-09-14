@@ -13,3 +13,14 @@ This is the Project for Navigation in React-Native
 - react-native run-android
 - react-native start 
 ## Documentation
+1. Functional Component 
+2. Class Component 
+3. Component Life Cycle 
+4. Component Props 
+5. Component State
+6. Passing Data from Parent Component to Child Component  
+7. Calling a child method from parent 
+8. Passing data from Child to parent 
+9. Calling a function from Child to Parent
+10. Flat List Component
+11. Stack Navigator
